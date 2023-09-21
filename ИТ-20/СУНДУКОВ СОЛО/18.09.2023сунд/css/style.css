@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial Black;
+
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    height: 10000px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.knop {
+    display: flex;
+    gap: 20px;
+}
+
+header {
+    padding-left: 35%;
+}
+
+.obsh {
+    color: black;
+    background-color: rgb(255, 255, 255);
+   padding-left: 300px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+label{
+    font-style: oblique;
+}
+.obsh2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.persdan {
+    display: flex;
+}
+input:valid{
+    border: 2px solid black;
+}
+input:invalid{
+    border: 2px solid red;
+}
+hr {
+    width: 1000px;
+}

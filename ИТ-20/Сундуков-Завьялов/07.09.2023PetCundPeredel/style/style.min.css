@@ -1,0 +1,389 @@
+@font-face {
+    font-family: Medium;
+    src: url("/fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("/fonts/Inter-Regular.ttf");
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: Medium;
+}
+
+.hiddder {
+    background-color: burlywood;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 900px;
+}
+
+.logo {
+    padding-left: 200px;
+}
+
+.linkk {
+    display: flex;
+    gap: 40px;
+    padding-top: 50px;
+}
+
+.linkk a {
+    list-style: none;
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    background-color: burlywood;
+    width: 100%;
+    height: 100%;
+}
+
+.txt_pitomec {
+    font-size: 80px;
+    color: beige;
+    padding-left: 200px;
+}
+.txt_pitomec1 {
+    font-size: 40px;
+    color: beige;
+    padding-left: 200px;
+    margin-top: 30px;
+}
+.txt_pitomec2 {
+    font-size: 40px;
+    color: beige;
+    padding-left: 200px;
+    margin-top: 30px;
+}
+.txt_pitomec3 {
+    font-size: 45px;
+    color: beige;
+    padding-left: 230px;
+    margin-top: 30px;
+}
+.petcook {
+    font-size: 130px;
+    color: beige;
+    padding-left: 120px;
+}
+.petcook1 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    padding-left: 120px;
+}
+.petcook2 {
+    font-size: 25px;
+    color: beige;
+    padding-left: 250px;
+}
+.petcook3 {
+    font-size: 25px;
+    color: rgb(34, 34, 34);
+    padding-left: 80px;
+    padding-top: 40px;
+}
+.petcook4 {
+    font-size: 16px;
+    color: rgb(34, 34, 34);
+    padding-left: 80px;
+    padding-top: 40px;
+    opacity: 0.7;
+}
+.petcook5 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 70px;
+}
+.petcook6 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 90px;
+}
+.petcook7 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding-left: 90px;
+    opacity: 0.7;
+}
+.petcook8  {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 90px;
+}
+.petcook9{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    padding-left: 180px;
+    
+}
+.petcook10 {
+    font-size: 25px;
+    color: beige;
+    
+}
+.name {
+    display: flex;
+}
+
+.c {
+    color: beige;
+    font-size: 55px;
+}
+
+.katalog {
+    color: rgb(0, 0, 0);
+    background-color: rgb(254,202,67);
+    margin-left: 950px;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog:hover {
+    color: beige;
+    background-color: rgb(173, 123, 58);
+    margin-left: 950px;
+    width: 200px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog1 {
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+
+    width: 80px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog11 {
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog112 {
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+}
+.katalog111 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(254,202,67);
+    margin-left: 80px;
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+
+}
+.katalog2 {
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+
+    width: 80px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.katalog21 {
+    color: rgb(0, 0, 0);
+    background-color: burlywood;
+
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.katalog1:hover {
+    color: beige;
+    background-color: rgb(173, 123, 58);
+
+    width: 80px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog11:hover {
+    color: beige;
+    background-color: rgb(173, 123, 58);
+
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+}
+.katalog112:hover {
+    color: beige;
+    background-color: rgb(173, 123, 58);
+
+    width: 200px;
+    height: 100px;
+    margin-top: 40px;
+}
+.katalog111:hover {
+    color: beige;
+    background-color: rgb(173, 123, 58);
+
+    margin-left: 80px;
+    width: 150px;
+    height: 50px;
+    margin-top: 40px;
+}
+.main{
+    display: flex;
+    gap: 100px;
+}
+.kategorys{
+    display: flex;
+    gap: 800px;   
+    align-items: center;   
+}
+.imgg{
+   
+    width:350px;
+    height:350px;
+    background-image: url(../img/9.png);
+}
+
+.polosa{
+    margin-top: 30px;
+}
+
+.blocks{
+    display: flex;
+    padding-left: 250px;
+    opacity: 1;
+  
+}
+footer{
+    background-color: burlywood;
+}
+.glavpodval{
+    display: flex;
+    gap: 800px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.podval{
+    display: flex;
+}
+.blocks:hover{
+    display: flex;
+    padding-left: 250px;
+    opacity: 0.7;
+
+}
+.kotiki{
+    display: flex;
+    padding-left: 80px;
+}
+.kategory{
+    flex-direction: row;
+margin-top: 30px;
+    display: flex;
+}
+
+.onas{
+gap: 30px;
+flex-direction: column;
+        display: flex;
+}
+
+.sinknop{
+    width: 20px;
+    height: 20px;
+}
+
+.vibor{
+    opacity: 1;
+}
+
+.vibor:hover{
+    opacity: 0.7;
+}
+
+
+.stxt{
+    display: flex;
+    width:100%;
+    height:100%;
+    background-image: url(../img/9.png);
+    background-repeat: no-repeat;
+}
+
+.oglav{
+    display: flex;
+}
+
+.sknop{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.knopes{
+    display: flex;
+  gap: 20px;
+  padding-left: 80px;
+}
+.knopes11{
+    display: flex;
+  gap: 50px;
+  padding-left: 150px;
+}
+.knopes1{
+    display: flex;
+  gap: 100px;
+  padding-left: 300px;
+}
+.pipec{
+    display: flex;
+    gap: 20px;
+}
+.knopus1{
+padding-top:30px ;
+}
+.vibor{
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+}
+.vibor1{
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+.onevib{
+    background-color: rgb(182, 150, 109); 
+border: 2px solid black;
+}
+.twovib{
+   background-color: rgb(182, 150, 109); 
+   border: 2px solid black;
+}
+.onevib1{
+    background-color: rgb(182, 150, 109); 
+border: 2px solid black;
+}
+.twovib1{
+   background-color: rgb(182, 150, 109); 
+   border: 2px solid black;
+}
+.dostavka{
+    display: flex;
+}

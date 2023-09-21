@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h3>Форма сбора персональных данных</h3>
+    </header>
+    <main>
+        <div class="obsh2">
+        <form class="obsh">
+
+            <div class="one">
+                <h4>Персональные данные</h4>
+                <label for="">Фамилия (киррилица, тире, пробел; от 3 до 15 символов):</label><br>
+                <input type="text" required pattern="[[а-яА-ЯёЁ\-\s]]{3,15}" class="fam"><br>
+                <label for="">Имя (киррилица, пробел; от 2 до 10 символов):</label><br>
+                <input type="text" required pattern="[[а-яА-ЯёЁ\s]]{2,10}" class="nam"><br>
+                <label for="">Отчество (киррилица; от 3 до 15 символов):</label><br>
+                <input type="text" required pattern="[[а-яА-ЯёЁ]]{3,15}" class="otch"><br>
+
+                <label for="">Выберите пол</label><br>
+                <div class="knop">
+                    <input type="radio" name="radios" checked><label for="">Мужской</label>
+
+                    <input type="radio" name="radios"><label for="">Женский</label>
+
+                    <input type="radio" name="radios"><label for="">Другой</label>
+                </div>
+            </div>
+            <hr>
+            <div class="two">
+                <h4>Данные портала Госуслуг</h4>
+                <label for="">Логин (от 5 до 10 символов):</label><br>
+                <input type="text" required pattern="{5,10}" class="log"><br>
+                <label for="">Пароль (латиница, цифры от 0 до 9, символы !@#$%^&*; от 6 до 15 символов):</label><br>
+                <input type="text" required pattern="[a-zA-Z0-9!@#$%^&*]{6,15}" class="par"><br>
+            </div>
+            <hr>
+            <div class="three">
+                <h4>Реквизиты банковской карты</h4>
+                <label for="">Владелец (латиница, пробел; от 5 до 25 символов):</label><br>
+                <input type="text" required pattern="[[A-Za-z\s]]{5,25}" class="vla"><br>
+                <label for="">Номер (группа из 4 цифр разделенных пробелом - 4 раза):</label><br>
+                <input type="text" required pattern="(\d{4}[\s]{1}){3}\d{4}" class="nom"><br>
+                <label for="">Действительна до (2 цифры знак "/" и еще 2 цифры):</label><br>
+                <input type="text" required pattern="[[0-9]{1,31}[!\]]" class="date" ><br>
+                <label for="">Код CVC (3 цифры):</label><br>
+                <input type="text" required pattern="[[0-9]]{3}" class="cvc"><br>
+            </div>
+            <hr>
+            <div class="four">
+                <h4>Разное</h4>
+                <label for="">Вид документа:</label><br>
+
+                <select name="selection" id="">
+                    <option value="ones">Паспорт</option>
+                    <option value="ones">Удостоверение личности</option>
+                    <option value="ones">Водительские права</option>
+                    <option value="ones">Купюра 100$</option>
+                </select><br>
+                <label for="">E-mail (стандартный):</label><br>
+                <input type="email" required><br>
+                <div class="persdan">
+                    <label for="">Согласие на дейтсвие с моими персональными данными:</label>
+                    <input type="checkbox" required checked>
+                </div>
+                <label for="">Полных лет на момент согласия(диапазон от 18-65):</label><br>
+                <input type="number" required min="18" max="65"><br>
+                <label for="">Дата заполнения согласия:</label><br>
+                <input type="date" required><br>
+                
+
+                <p>
+                    <input type="reset" value="Очистить">
+                    <input type="submit" value="Отправить">
+                </p>
+                <h4>Спасибо за понимание :D</h4>
+            </div>
+
+        </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
